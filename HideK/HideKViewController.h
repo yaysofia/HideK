@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface HideKViewController : UIViewController
-
-@end
+@property (weak, nonatomic) IBOutlet UIScrollView *Scrollview;
+@property (weak, nonatomic) IBOutlet UITextField *txtfn;
+@property (weak, nonatomic) IBOutlet UITextField *txtln;
+@property (weak, nonatomic) IBOutlet UITextField *txtemail;
+@property (weak, nonatomic) IBOutlet UITextField *txtad;
+@property (weak, nonatomic) IBOutlet UITextField *txtzip;
+-(IBAction) doneEditing:(id) sender; @end
